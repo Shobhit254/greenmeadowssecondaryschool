@@ -17,20 +17,20 @@ const teachers = [
   {
     name: "Mrs. Santosh Kumari",
     role: "Hindi Teacher",
-    img: {santosh},
+    img: santosh,
     msg: "हमारा उद्देश्य हिंदी शिक्षा द्वारा विद्यार्थियों में पढ़ने, लिखने और बोलने की क्षमता के साथ संस्कारों और सकारात्मक सोच का विकास करना है।"
   },
   {
 
     name: "Mr. Shobhit Anand",
     role: "Computer Teacher",
-    img: {shobhit},
+    img: shobhit,
     msg: "IT education helps students understand technology responsibly, encouraging innovation, problem-solving skills, and safe digital practices in an ever-evolving digital world."
   },
   {
     name: "Mr. Rohit Chaudhary",
     role: "English Teacher",
-    img: {rohit},
+    img: rohit,
     msg: "English education empowers students to read, write, speak, and think effectively, preparing them to communicate confidently and responsibly in a global and ever-changing world."
   }
 ]

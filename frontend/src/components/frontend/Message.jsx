@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../common/Header'
 import Footer from '../common/Footer'
+import chairman from "../../assets/Images/chairman.PNG";
 // import './Messages.css'
 
 const teachers = [
@@ -45,7 +46,7 @@ const Message = () => {
           <div className="row align-items-center g-5">
 
             <div className="col-md-4 text-center" data-aos="zoom-out-right">
-              <img src="src/assets/Images/chairman.PNG" alt="Principal" className="profile-img" />
+              <img src={chairman} alt="Principal" className="profile-img" />
               <h4>Mr. Satyavir Singh Mavi</h4>
               <span>Chairmam Sir</span>
             </div>

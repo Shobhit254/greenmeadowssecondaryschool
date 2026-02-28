@@ -5,6 +5,10 @@ import chairman from "../../assets/Images/chairman.PNG";
 import principal from "../../assets/Images/npinsir.png";
 import vprincipal from "../../assets/Images/mam.PNG";
 import incharge from "../../assets/Images/archana.PNG";
+import santosh from "../../assets/Images/santosh.png";
+import shobhit from "../../assets/Images/shobhit.PNG";
+import rohit from "../../assets/Images/rohit.PNG";
+
 
 // import './Messages.css'
 
@@ -13,20 +17,20 @@ const teachers = [
   {
     name: "Mrs. Santosh Kumari",
     role: "Hindi Teacher",
-    img: "src/assets/Images/santosh.png",
+    img: {santosh},
     msg: "हमारा उद्देश्य हिंदी शिक्षा द्वारा विद्यार्थियों में पढ़ने, लिखने और बोलने की क्षमता के साथ संस्कारों और सकारात्मक सोच का विकास करना है।"
   },
   {
 
     name: "Mr. Shobhit Anand",
     role: "Computer Teacher",
-    img: "src/assets/Images/shobhit.PNG",
+    img: {shobhit},
     msg: "IT education helps students understand technology responsibly, encouraging innovation, problem-solving skills, and safe digital practices in an ever-evolving digital world."
   },
   {
     name: "Mr. Rohit Chaudhary",
     role: "English Teacher",
-    img: "src/assets/Images/rohit.PNG",
+    img: {rohit},
     msg: "English education empowers students to read, write, speak, and think effectively, preparing them to communicate confidently and responsibly in a global and ever-changing world."
   }
 ]
@@ -132,7 +136,7 @@ const Message = () => {
               </p>
             </div>
             <div className="col-md-4 text-center" data-aos="zoom-out-left">
-              <img src="src/assets/Images/archana.PNG" alt="Incharge" className="profile-img" />
+              <img src={incharge} alt="Incharge" className="profile-img" />
               <h4>Miss Archana Kundla</h4>
               <span>Incharge</span>
             </div>

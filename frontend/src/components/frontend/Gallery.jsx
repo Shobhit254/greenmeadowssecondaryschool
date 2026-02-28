@@ -173,42 +173,42 @@ const galleryImages = [
   },
   {
     src: def1,
-    title: "SALF DEFENCE",
+    title: "SELF DEFENCE",
     category: "Events",
   },
   {
     src: def2,
-    title: "SALF DEFENCE",
+    title: "SELF DEFENCE",
     category: "Events",
   },
   {
     src: def3,
-    title: "SALF DEFENCE",
+    title: "SELF DEFENCE",
     category: "Events",
   },
   {
     src: def4,
-    title: "SALF DEFENCE",
+    title: "SELF DEFENCE",
     category: "Events",
   },
   {
     src: def5,
-    title: "SALF DEFENCE",
+    title: "SELF DEFENCE",
     category: "Events",
   },
   {
     src: def6,
-    title: "SALF DEFENCE",
+    title: "SELF DEFENCE",
     category: "Events",
   },
   {
     src: def7,
-    title: "SALF DEFENCE",
+    title: "SELF DEFENCE",
     category: "Events",
   },
   {
     src: def8,
-    title: "SALF DEFENCE",
+    title: "SELF DEFENCE",
     category: "Events",
   },
   {

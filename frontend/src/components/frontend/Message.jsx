@@ -2,6 +2,10 @@ import React from 'react'
 import Header from '../common/Header'
 import Footer from '../common/Footer'
 import chairman from "../../assets/Images/chairman.PNG";
+import principal from "../../assets/Images/npinsir.png";
+import vprincipal from "../../assets/Images/mam.PNG";
+import incharge from "../../assets/Images/archana.PNG";
+
 // import './Messages.css'
 
 const teachers = [
@@ -74,7 +78,7 @@ const Message = () => {
           <div className="row align-items-center g-5">
 
             <div className="col-md-4 text-center" data-aos="zoom-out-right">
-              <img src="src/assets/Images/npinsir.png" alt="Principal" className="profile-img" />
+              <img src={principal} alt="Principal" className="profile-img" />
               <h4>Mr. Rajvir Singh Parihar</h4>
               <span>Principal Sir</span>
             </div>
@@ -106,7 +110,7 @@ const Message = () => {
               </p>
             </div>
             <div className="col-md-4 text-center" data-aos="zoom-out-left">
-              <img src="src/assets/Images/mam.PNG" alt="Principal" className="profile-img" />
+              <img src={vprincipal} alt="Principal" className="profile-img" />
               <h4>Mrs. Suman</h4>
               <span>Principal Mam</span>
             </div>

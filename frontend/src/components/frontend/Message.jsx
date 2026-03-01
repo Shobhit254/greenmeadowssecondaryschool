@@ -107,7 +107,7 @@ const Message = () => {
         <div className="container">
           <div className="row align-items-center g-5">
             <div className="col-md-8" data-aos="zoom-out-right">
-              <h2>Principal's Message</h2>
+              <h2>Vice Principal's Message</h2>
               <p>
                 We welcome you to our school community, where education goes beyond textbooks. Our focus is on academic
                 -excellence, character building, and overall development, ensuring that every child grows with confidence, curiosity, and a strong sense of responsibility.
@@ -116,7 +116,7 @@ const Message = () => {
             <div className="col-md-4 text-center" data-aos="zoom-out-left">
               <img src={vprincipal} alt="Principal" className="profile-img" />
               <h4>Mrs. Suman</h4>
-              <span>Principal Mam</span>
+              <span>Vice Principal Mam</span>
             </div>
           </div>
         </div>

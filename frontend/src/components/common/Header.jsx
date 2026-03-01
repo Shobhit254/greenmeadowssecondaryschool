@@ -1,7 +1,7 @@
-import React from 'react'
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import logo from '../../assets/Images/logo.png'
+// import React from 'react'
+// import Nav from 'react-bootstrap/Nav';
+// import Navbar from 'react-bootstrap/Navbar';
+// import logo from '../../assets/Images/logo.png'
 
 // const Header = () => {
 //   return (
@@ -137,7 +137,7 @@ const Header = () => {
 
         </div>
       </Navbar>
-    </header>
+    </header> 
   )
 }
 

@@ -1,7 +1,7 @@
-// import React from 'react'
-// import Nav from 'react-bootstrap/Nav';
-// import Navbar from 'react-bootstrap/Navbar';
-// import logo from '../../assets/Images/logo.png'
+import React from 'react'
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import logo from '../../assets/Images/logo.png'
 
 // const Header = () => {
 //   return (
@@ -95,34 +95,50 @@
 
 
 
-<Navbar expand="lg" className="py-3 shadow-sm bg-white">
-  <div className="container-fluid px-0">
 
-    <Navbar.Brand href="/" className="d-flex align-items-center ms-3">
-      <img 
-        src={logo}
-        alt="Green Meadows Logo"
-        height="40"
-        className="me-2"
-      />
-      <span className="fw-bold text-success">
-        GREEN MEADOWS SECONDARY SCHOOL
-      </span>
-    </Navbar.Brand>
 
-    <Navbar.Toggle aria-controls="basic-navbar-nav" className="me-3" />
+import React from 'react'
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+// import Container from 'react-bootstrap/Container';
+import logo from '../../assets/Images/logo.png'
 
-    <Navbar.Collapse id="basic-navbar-nav">
-      <Nav className="ms-auto me-3 fw-semibold">
-        <Nav.Link href="/">Home</Nav.Link>
-        <Nav.Link href="/message">Message</Nav.Link>
-        <Nav.Link href="/about">About Us</Nav.Link>
-        <Nav.Link href="/facilities">Facilities</Nav.Link>
-        <Nav.Link href="/mandatory">Mandatory Disclosure</Nav.Link>
-        <Nav.Link href="/gallery">Gallery</Nav.Link>
-        <Nav.Link href="/contact">Contact Us</Nav.Link>
-      </Nav>
-    </Navbar.Collapse>
+const Header = () => {
+  return (
+    <header>
+      <Navbar expand="lg" className="py-3 shadow-sm bg-white">
+        <div className="container-fluid px-0">
 
-  </div>
-</Navbar>
+          <Navbar.Brand href="/" className="d-flex align-items-center ms-3">
+            <img
+              src={logo}
+              alt="Green Meadows Logo"
+              height="40"
+              className="me-2"
+            />
+            <span className="fw-bold text-success">
+              GREEN MEADOWS SECONDARY SCHOOL
+            </span>
+          </Navbar.Brand>
+
+          <Navbar.Toggle aria-controls="basic-navbar-nav" className="me-3" />
+
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="ms-auto me-3 fw-semibold">
+              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href="/message">Message</Nav.Link>
+              <Nav.Link href="/about">About Us</Nav.Link>
+              <Nav.Link href="/facilities">Facilities</Nav.Link>
+              <Nav.Link href="/mandatory">Mandatory Disclosure</Nav.Link>
+              <Nav.Link href="/gallery">Gallery</Nav.Link>
+              <Nav.Link href="/contact">Contact Us</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+
+        </div>
+      </Navbar>
+    </header>
+  )
+}
+
+export default Header

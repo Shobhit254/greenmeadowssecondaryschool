@@ -238,6 +238,8 @@ header {
   z-index: 1000;
 }
 
+
+// header
 .navbar-nav .nav-link {
   white-space: nowrap;
   transition: 0.3s;
@@ -274,6 +276,22 @@ nav {
   }
 }
 
+.brand-area {
+  max-width: 350px;   /* brand width control */
+}
+
+.brand-text {
+  font-weight: 700;
+  color: #198754;
+  font-size: 20px;
+  white-space: nowrap;   /* break na ho */
+}
+
+.navbar-nav .nav-link {
+  white-space: nowrap;
+  padding: 0 14px;
+  font-weight: 500;
+}
 
 // footer{
 //   .social-icons a:hover {

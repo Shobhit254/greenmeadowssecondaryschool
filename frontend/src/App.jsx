@@ -16,6 +16,7 @@ import Science from './components/frontend/ScienceLab';
 import Dance from './components/frontend/DanceLab';
 import AdmissionBanner from "./components/common/AdmissionBanner";
 
+import { Helmet } from 'react-helmet-async';
 
 
 
@@ -24,6 +25,19 @@ function App() {
 
   return (
     <>
+    <Helmet>
+        <title>Green Meadows Secondary School | Best School in Delhi</title>
+        <meta
+          name="description"
+          content="Green Meadows Secondary School is a leading school in Karawal Nagar, Delhi offering quality education, modern facilities, and experienced teachers."
+        />
+        <meta
+          name="keywords"
+          content="Green Meadows Secondary School, Best School in Delhi, Quality Education, Modern Facilities"
+        />
+        <meta name="author" content="Green Meadows Secondary School" />
+      </Helmet>
+
      <AdmissionBanner />  {/* 👈 Yaha lagana hai */}
       {/* <Home /> */}
       <BrowserRouter>

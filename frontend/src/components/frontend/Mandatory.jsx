@@ -285,51 +285,55 @@ const Mandatory = () => {
             </div>
           </div>
         </section>
-        <p className='text-left py-5'>
-         &nbsp;&nbsp;&nbsp; <h3><u><b>GENERAL INFORMATION</b></u></h3>
-          <br />
-          &nbsp;&nbsp;&nbsp; NAME OF THE SCHOOL - Green Meadows Secondary School
-          <br />
-          &nbsp;&nbsp;&nbsp; AFFILIATION NO. - 2730937
-          <br />
-          &nbsp;&nbsp;&nbsp; SCHOOL CODE - 25563
-          <br />
-          &nbsp;&nbsp;&nbsp; COMPLETE ADDRESS WITH PIN CODE - Green Meadows Secondary School, Address: A-1 lal bahadur shastri marg, <br />&nbsp;&nbsp;&nbsp; firni road, near Kali Ghata Road, Karawal Nagar, Delhi, 110094
-          <br />
-          &nbsp;&nbsp;&nbsp; PRINCIPAL NAME - Mr. Rajvir Singh
-          <br />
-          &nbsp;&nbsp;&nbsp; SCHOOL EMAIL ID greenmeadowssecondaryschool@gmail.com
-          <br />
-          &nbsp;&nbsp;&nbsp; CONTACT DETAILS (+91) 8802323756 (Mobile)
-        </p>
+        <div className="general-info-section py-5 px-3">
+          <h3 className="general-info-title">
+            <u><b>GENERAL INFORMATION</b></u>
+          </h3>
+
+          <div className="general-info-content">
+            <p><strong>NAME OF THE SCHOOL -</strong> Green Meadows Secondary School</p>
+            <p><strong>AFFILIATION NO. -</strong> 2730937</p>
+            <p><strong>SCHOOL CODE -</strong> 25563</p>
+            <p>
+              <strong>COMPLETE ADDRESS WITH PIN CODE -</strong>
+              {" "}Green Meadows Secondary School, Address: A-1 lal bahadur shastri marg,
+              firni road, near Kali Ghata Road, Karawal Nagar, Delhi, 110094
+            </p>
+            <p><strong>PRINCIPAL NAME -</strong> Mr. Rajvir Singh</p>
+            <p><strong>SCHOOL EMAIL ID -</strong> greenmeadowssecondaryschool@gmail.com</p>
+            <p><strong>CONTACT DETAILS -</strong> (+91) 8802323756 (Mobile)</p>
+          </div>
+        </div>
         <section className="aria-9 py-5">
           <div className="doc-container">
-            <table className="doc-table">
-              <thead>
-                <tr>
-                  <th>S.No.</th>
-                  <th>DOCUMENT NAME</th>
-                  <th>VIEW</th>
-                </tr>
-              </thead>
-
-              <tbody>
-                {documentsData.map((doc, index) => (
-                  <tr key={index}>
-                    <td>{index + 1}</td>
-                    <td>{doc.name}</td>
-                    <td>
-                      <button
-                        className="view-btn"
-                        onClick={() => setActivePdf(doc.file)}
-                      >
-                        View
-                      </button>
-                    </td>
+            <div className="doc-table-wrapper">
+              <table className="doc-table">
+                <thead>
+                  <tr>
+                    <th>S.No.</th>
+                    <th>DOCUMENT NAME</th>
+                    <th>VIEW</th>
                   </tr>
-                ))}
-              </tbody>
-            </table>
+                </thead>
+
+                <tbody>
+                  {documentsData.map((doc, index) => (
+                    <tr key={index}>
+                      <td>{index + 1}</td>
+                      <td>{doc.name}</td>
+                      <td>
+                        <button
+                          className="view-btn"
+                          onClick={() => setActivePdf(doc.file)}
+                        >
+                          View
+                        </button>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           </div>
         </section>
 

@@ -56,7 +56,7 @@ const Message = () => {
             <div className="col-md-4 text-center" data-aos="zoom-out-right">
               <img src={chairman} alt="Principal" className="profile-img" />
               <h4>Mr. Satyavir Singh Mavi</h4>
-              <span>Chairmam Sir</span>
+              <span>Chairman Sir</span>
             </div>
             <div className="col-md-8" data-aos="zoom-out-left">
               <h2>Chairman's Message</h2>
